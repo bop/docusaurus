@@ -1,0 +1,96 @@
+---
+slug: mdx-init
+title: MDX init
+authors: [bop]
+tags: [docusaurus, poetic, hola]
+---
+
+## Info
+
+:::info
+
+> Easy to maintain open source documentation websites.
+>
+> — Docusaurus
+:::
+
+Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).
+
+:::tip
+
+Use the power of React to create interactive blog posts.
+
+:::
+
+{/* truncate */}
+
+For example, use JSX to create an interactive button:
+
+```js
+<button onClick={() => alert('button clicked!')}>Click me!</button>
+```
+
+<button onClick={() => alert('button cliqué !')}>Click me!</button>
+
+export const Highlight = ({children, color}) => (
+  <span
+    style={{
+      backgroundColor: color,
+      borderRadius: '20px',
+      color: '#fff',
+      padding: '10px',
+      cursor: 'pointer',
+    }}
+    onClick={() => {
+      alert(`You clicked the color ${color} with label ${children}`)
+    }}>
+    {children}
+  </span>
+);
+
+
+---
+
+This is <Highlight color="#1877F2">Poetic blue</Highlight> !
+
+This is <Highlight color="#25c2a0">Docusaurus green</Highlight> !
+
+
+### Details element example
+
+<details>
+  <summary>Toggle me!</summary>
+
+  This is the detailed content
+
+  ```js
+  console.log("Markdown features including the code block are available");
+  ```
+
+  You can use Markdown here including **bold** and _italic_ text, and [inline link](https://docusaurus.io)
+  <details>
+    <summary>Nested toggle! Some surprise inside...</summary>
+
+    😲😲😲😲😲
+  </details>
+</details>
+
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+## Tabs
+
+<Tabs>
+  <TabItem value="apple" label="Apple" default>
+    This is an apple 🍎
+  </TabItem>
+  <TabItem value="orange" label="Orange">
+    This is an orange 🍊
+  </TabItem>
+  <TabItem value="banana" label="Banana">
+    This is a banana 🍌
+  </TabItem>
+</Tabs>
+
+---
