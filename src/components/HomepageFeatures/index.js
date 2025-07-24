@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Ski rando',
+    title: 'Montagnes',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
@@ -24,7 +24,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Montagnes',
+    title: 'Réaction nucléaire',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>

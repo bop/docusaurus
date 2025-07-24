@@ -17,3 +17,8 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+poetic:
+  label: Poetic
+  permalink: /poetic
+  description: Poetic tag description
