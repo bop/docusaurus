@@ -3,7 +3,7 @@ base_url = "https://zola-daisy.winterstein.biz"
 
 theme = "daisy"
 
-title = "Daisy Theme"
+title = "Poiesis site"
 description = "Example / demo page for the Daisy theme for Zola."
 
 compile_sass = false
@@ -49,7 +49,7 @@ links = [
 [extra.social]
 codeberg = "https://codeberg.org/winterstein/zola-theme-daisy"
 github = "https://github.com/awinterstein/zola-theme-daisy"
-gitlab = ""
+gitlab = "https://gitlab.com/config/grayscale"
 stackoverflow = ""
 mastodon = ""
 linkedin = ""
