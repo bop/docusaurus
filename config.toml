@@ -37,7 +37,7 @@ links = [
     { url = "sitemap.xml", i18n_key = "sitemap", no_translation = true },
 ]
 
-notice = '<a href="https://www.winterstein.biz">Adrian Winterstein</a><br>Powered by <a href="https://getzola.org">Zola</a>, <a href="https://tailwindcss.com">TailwindCSS</a> & <a href="https://daisyui.com">DaisyUI</a>'
+notice = '<a href="https://www.winterstein.biz">Larry Post</a><br>Powered by <a href="https://getzola.org">Zola</a>, <a href="https://tailwindcss.com">TailwindCSS</a> & <a href="https://daisyui.com">DaisyUI</a>'
 
 [extra.navbar]
 links = [
